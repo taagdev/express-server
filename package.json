@@ -1,0 +1,25 @@
+{
+  "name": "meanstack",
+  "version": "0.0.1",
+  "homepage": "http://olatunde.iotcabal.com",
+  "description": "boiler plate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install --config.interactive=false"
+  },
+  "author": "Olatunde Garuba",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.8.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.12",
+    "gulp-nodemon": "^2.0.7",
+    "gulp-notify": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}
