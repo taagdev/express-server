@@ -15,7 +15,7 @@ available routes.
 ## Home
 # GET /
 + Response 200 (Json)
-    Message: Welcome to SunCrowd server
+    Message: Welcome to express-server
 
 #'/api/v1/auth/signin'
   	#.post

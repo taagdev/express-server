@@ -1,12 +1,12 @@
 {
-  "name": "sunCrowdServer",
+  "name": "express-server",
   "version": "0.0.1",
   "private": false,
   "author": "generalgmt/olatunde garuba",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://generagmt@bitbucket.org/generagmt/suncrowdserver.git"
+    "url": "https://generagmt@bitbucket.org/generagmt/express-server.git"
   },
   "engines": {
     "node": ">=0.10.28",

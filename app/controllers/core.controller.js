@@ -14,7 +14,7 @@ exports.signOut = function(req, res) {
 };
 
 exports.index = function(req, res) {
-  res.status(200).json({ message: 'Welcome to sunCrowd server' });
+  res.status(200).json({ message: 'Welcome to express-server' });
 };
 
 
