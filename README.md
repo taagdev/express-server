@@ -1,5 +1,6 @@
-## Boilerplate
+## Express-server Boilerplate
 
+# This boiler plate is equiped with JWT and social logins such as facebook and google OAuth
 # you need to have redis, and node  installed to use this guy please
 
 #run npm install
@@ -40,4 +41,12 @@ available routes.
     + lastName
     + firstName
 
+## Social logins/signup
+
+# Facebook
+ /auth/facebook
+
+# Google
+  /auth/google
+  
 
