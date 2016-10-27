@@ -22,9 +22,6 @@ module.exports = function(app) {
   }));
   app.route('/auth/facebook/callback').get(users.oauthCallback('facebook'));
 
-  app.route('/auth/twitter').get(passport.authenticate('twitter'));
-  app.route('/auth/twitter/callback').get(users.oauthCallback('twitter'));
-
   app.route('/auth/google').get(passport.authenticate('google', {
     scope: [
       'https://www.googleapis.com/auth/userinfo.profile',
